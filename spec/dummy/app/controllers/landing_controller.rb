@@ -1,5 +1,5 @@
 class LandingController < ApplicationController
-  before_filter :redirect_to_dashboard_if_signed_in
+  before_action :redirect_to_dashboard_if_signed_in
 
   private
 
